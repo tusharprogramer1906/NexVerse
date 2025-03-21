@@ -1,0 +1,61 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline {
+    height: 200px;
+    width: 5px;
+    background-color: #e5e5e5;
+  }
+  
+  .stub1 {
+    line-height: 30px;
+    font-size: 24px;
+    background-color: #eae4e4;
+  }
+  
+  .stub2 {
+    height: 1000px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    font-size: 20px;
+  }
+  
+  .circleWrapper {
+    position: relative;
+  }
+  
+  .message {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    min-width: 150px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .message2 {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    min-width: 150px;
+    font-weight: bold;
+    color: white;
+  }
+  
